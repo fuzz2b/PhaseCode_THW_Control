@@ -1,0 +1,21 @@
+{
+  "relay": {
+    "com_port": "auto",
+    "pins_csv": "data/PinsToRelay.csv"
+  },
+  "power_supply": {
+    "visa_address": "auto",
+    "serial": null
+  },
+  "limits": {
+    "max_voltage_V": 12.0,
+    "max_current_A": 2.9,
+    "protection_voltage_V": 12.0,
+    "protection_current_A": 3.0
+  },
+  "thw_test": {
+    "voltage_V": 10.0,
+    "inrush_limit_A": 0.01,
+    "max_duration_s": 120
+  }
+}
